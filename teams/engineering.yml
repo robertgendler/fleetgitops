@@ -29,3 +29,4 @@ controls:
       - path: ../lib/macos/passcode-settings-ddm.json
   scripts:
     - path: ../lib/set-wallpaper.ps1
+  enable_disk_encryption: true    
