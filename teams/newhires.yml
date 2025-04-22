@@ -9,6 +9,7 @@
 
 name: New Hires
 policies:
+  - path: ../lib/dns-resolvers.policies.yml
 queries:
   - path: ../lib/collect-usb-devices.queries.yml
   - path: ../lib/collect-failed-login-attempts.queries.yml
@@ -28,3 +29,5 @@ controls:
   macos_updates:
     deadline: "2025-05-15"
     minimum_version: "15.4.1"
+  scripts:
+    - path: ../lib/update_dns.sh
