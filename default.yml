@@ -14,6 +14,11 @@ org_settings:
   server_settings:
     server_url: $FLEET_URL
   org_info:
-    org_name: Fleet
+    org_name: BobCorp
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
+  fleet_destkop:
+    transparency_url: https://catoftheday.com
+  host_expiry_settings:
+    host_expiry_enabled: false
+    host_expiry_window: 30
