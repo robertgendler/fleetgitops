@@ -23,7 +23,7 @@ team_settings:
     - secret: "$FLEET_NEW_HIRES_ENROLL_SECRET"
 software:
   packages:
-    - path: ../lib/software/zoom.yml
+    - path: ../lib/zoom.yml
 controls:
   macos_settings:
     custom_settings:
