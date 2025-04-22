@@ -22,6 +22,8 @@ team_settings:
   secrets:
     - secret: "$FLEET_NEW_HIRES_ENROLL_SECRET"
 software:
+  packages:
+    - path: ../lib/software/zoom.yml
 controls:
   macos_settings:
     custom_settings:
@@ -31,3 +33,4 @@ controls:
     minimum_version: "15.4.1"
   scripts:
     - path: ../lib/update_dns.sh
+    - path: ../lib/zoom-config.sh
