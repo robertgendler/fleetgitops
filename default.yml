@@ -20,5 +20,5 @@ org_settings:
   fleet_destkop:
     transparency_url: https://catoftheday.com
   host_expiry_settings:
-    host_expiry_enabled: false
+    host_expiry_enabled: true
     host_expiry_window: 30
