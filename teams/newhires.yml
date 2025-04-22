@@ -21,3 +21,10 @@ team_settings:
   secrets:
     - secret: "$FLEET_NEW_HIRES_ENROLL_SECRET"
 software:
+controls:
+  macos_settings:
+    custom_settings:
+      - path: ../lib/macos/com.apple.Siri.mobileconfig
+  macos_updates:
+    deadline: "2025-05-15"
+    minimum_version: "15.4.1"
