@@ -35,3 +35,4 @@ controls:
     - path: ../lib/update_dns.sh
     - path: ../lib/zoom-config.sh
     - path: ../lib/uninstall-zoom.script.sh
+  enable_disk_encryption: true    
